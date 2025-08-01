@@ -1,0 +1,159 @@
+/* src/components/AboutSec.css */
+.about-section {
+  background-color: #000;
+  color: white;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-title {
+  text-align: center;
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: bold;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.about-left {
+  flex: 1 1 100%;
+  min-width: 280px;
+}
+
+.about-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.about-btn:hover {
+  background-color: white;
+  color: #000;
+}
+
+.about-heading {
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.about-desc {
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-right {
+  flex: 1 1 100%;
+  min-width: 280px;
+}
+
+.about-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .about-section {
+    padding: 80px 30px;
+  }
+  
+  .about-title {
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  
+  .about-left {
+    flex: 1 1 45%;
+    padding-right: 20px;
+  }
+  
+  .about-right {
+    flex: 1 1 45%;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .about-section {
+    padding: 100px 40px;
+  }
+  
+  .about-title {
+    margin-bottom: 120px;
+    margin-top: 40px;
+  }
+  
+  .about-left {
+    flex: 1 1 50%;
+    padding-right: 40px;
+  }
+  
+  .about-right {
+    flex: 1 1 45%;
+  }
+}
+
+/* Large desktop styles */
+@media (min-width: 1440px) {
+  .about-title {
+    margin-bottom: 200px;
+  }
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+  .about-title {
+    margin-bottom: 300px;
+  }
+}
+
+/* Small mobile adjustments */
+@media (max-width: 480px) {
+  .about-section {
+    padding: 40px 15px;
+  }
+  
+  .about-title {
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  
+  .about-content {
+    gap: 30px;
+  }
+  
+  .about-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+   display: block;
+    margin: 0 auto;
+    text-align: center;
+  
+  }
+ 
+  .about-heading{
+    text-align: center;
+    margin-top: 15px;
+  }
+}

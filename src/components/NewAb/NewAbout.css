@@ -1,0 +1,248 @@
+.about-container {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #000;
+  color: #222;
+}
+
+/* .about-header {
+  position: relative;
+  text-align: center;
+  background: #222;
+  color: #fff;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.about-header-bg .header-img {
+  width: 100vw;
+  height: 260px;
+  object-fit: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0; left: 0; right: 0; z-index: 0;
+}
+
+.about-title {
+  position: relative;
+  z-index: 2;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 70px;
+}
+
+.about-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-image-section {
+  flex: 1 1 360px;
+  min-width: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-main-img {
+  width: 440px;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px #ddd;
+  max-width: 100%; /* Ensure image shrinks on smaller screens */
+  height: auto;
+}
+
+.about-info-section {
+  flex: 1 1 420px;
+  min-width: 380px;
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-info-section h2 {
+  font-size: 29px;
+  margin: 0 0 15px 0;
+  font-weight: 700;
+  color: #fff;
+}
+
+.about-desc {
+  line-height: 1.6;
+  margin-bottom: 22px;
+  color: #000;
+}
+
+.about-stats {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 16px;
+  align-items: flex-end;
+}
+
+.about-stat-number {
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.about-stat-label {
+  color: #fff;
+  font-size: 16px;
+}
+
+.about-retention {
+  font-size: 19px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.about-features {
+  list-style: disc inside;
+  color: #fff;
+  font-size: 17px;
+  margin: 12px 0;
+  padding-left: 16px;
+}
+
+.who-we-are-section {
+  background: #000;
+  padding: 50px 0 30px 0;
+  text-align: center;
+}
+
+.who-we-are-section h2 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.who-we-are-section p {
+  color: #fff;
+  margin: 0 auto 35px auto;
+  max-width: 760px;
+  line-height: 1.6;
+}
+
+.who-we-are-team-img-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -180px;
+  flex-wrap: wrap; /* Allow wrap on smaller screens */
+  gap: 20px;
+}
+
+.team-img {
+  width: 1100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px #bbb;
+  max-width: 100%; /* Make image responsive */
+  height: auto;
+  flex-shrink: 1;
+}
+
+.mission-vision-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+/* Make mission and vision boxes side by side on large screens */
+.about-mission, .about-vision {
+  background: #18141c;
+  color: #fff;
+  padding: 30px 20px;
+  border-radius: 8px;
+  max-width: 310px;
+  min-width: 250px;
+  min-height: 180px;
+  box-shadow: 0 3px 12px #0003;
+  flex: 1 1 270px;
+}
+
+.about-mission h3, .about-vision h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+/* Responsive adjustments */
+
+/* Medium devices: tablet */
+@media (max-width: 900px) {
+  .about-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-info-section, .about-image-section {
+    min-width: 220px;
+    max-width: 94vw;
+  }
+  .about-info-section {
+    padding: 20px 5vw;
+  }
+  .about-main-img {
+    width: 98vw;
+    max-width: 400px;
+  }
+  .who-we-are-team-img-section {
+    margin-bottom: -100px; /* reduce negative margin */
+  }
+  .team-img {
+    width: 90vw;
+    max-width: 600px;
+  }
+  .mission-vision-row {
+    gap: 18px;
+  }
+}
+
+/* Small devices: mobile */
+@media (max-width: 600px) {
+  .about-header {
+    height: 140px;
+  }
+  .about-title {
+    font-size: 34px;
+    padding-top: 20px;
+  }
+  .about-main-img, .team-img {
+    width: 97vw;
+    max-width: 97vw;
+  }
+  .about-info-section {
+    padding: 20px 5vw;
+  }
+  /* Change mission and vision to block stacked vertically */
+  .mission-vision-row {
+    flex-direction: column;
+    gap: 18px;
+  }
+  /* Force each mission/vision to full width */
+  .about-mission, .about-vision {
+    max-width: 84vw;    /* Makes the card narrower */
+    margin: 0 auto 10px auto;  /* Centers it and adds space below */
+    border: 1.5px solid #444;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    background-color: #111;
+    padding: 40px 12px;
+    border-radius: 8px;
+    box-sizing: border-box;    /* Ensures width includes border/padding */
+  }
+  .who-we-are-section p {
+      max-width: 95vw;
+    padding: 0 10px;
+    font-size: 14px; 
+  }
+}
