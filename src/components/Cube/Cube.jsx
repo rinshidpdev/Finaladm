@@ -62,7 +62,8 @@ const StrategicMarketingHero = () => {
             </h1>
 
             <p className="description">
-              ADM Agency delivers data-driven strategies blended with creative innovation. Our full-service digital marketing solutions are tailored to your brand's unique needs — from SEO and content creation to branding and web development, we offer everything under one roof.
+              As a top-tier Creative Digital Marketing Agency in Dubai, ADM Agency delivers results through innovative, data-driven strategies. From SEO and content creation to branding and web development, we provide 360° digital solutions tailored to your business needs — all under one roof.
+
             </p>
           </div>
         </div>

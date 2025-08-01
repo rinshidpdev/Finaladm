@@ -28,8 +28,7 @@ const ServiceSection = () => {
           <div className="content">
             <h3>ANALYZE</h3>
             <p>
-              Our team thoroughly analyzes your business, audience, and industry
-              to create strategies fueled by meaningful insights.
+               We begin with a deep dive into your business, audience, and market landscape to uncover insights that shape impactful strategies
             </p>
           </div>
         </div>
@@ -39,9 +38,8 @@ const ServiceSection = () => {
           <div className="content">
             <h3>DESIGN</h3>
             <p>
-              With strategy in place, ADM Agency crafts engaging designs that
-              reflect your brand and connect with your audience across web,
-              social, and beyond.
+             With strategy in place, our creative team designs engaging visuals and digital assets that reflect your brand and resonate with your audience.
+
             </p>
           </div>
         </div>
@@ -51,17 +49,16 @@ const ServiceSection = () => {
           <div className="content">
             <h3>MARKET</h3>
             <p>
-              We launch targeted campaigns that drive results — from social ads
-              to SEO. Our goal is to position your brand where it matters most.
+             From SEO and social media to performance campaigns, we launch precision-targeted efforts that place your brand where it matters most — ahead of the competition.
             </p>
           </div>
         </div>
         
       </div>
       <div className="cont" data-aos="zoom-in-right">
-          <h1>Fuel your business growth with digital solutions</h1>
+          <h1>Fuel Business Growth with ADM Agency</h1>
            <h2> <span>from</span>  ADM Agency</h2>
-           <p>Our expert team at ADM Agency delivers strategic solutions designed to enhance your <br /> brand presence, optimize digital performance, and streamline operations</p>
+           <p>ADM Agency is more than a marketing service — we’re your creative growth partner. As a full-service creative digital marketing agency in Dubai, we deliver digital solutions that increase visibility, enhance brand presence, and boost performance across every platform</p>
         </div>
     </div>
     

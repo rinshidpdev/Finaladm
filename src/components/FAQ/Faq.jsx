@@ -6,27 +6,28 @@ const faqData = [
   {
     question: 'What Kind Of Content Creation Do You Provide?',
     answer:
-      'We offer complete content services in Dubai, including photoshoots, reels, ad video production, scripts, and creative copy tailored for web and social media.',
+      'We craft engaging, SEO-optimized content including social media posts, blogs, ad creatives, branding material, and website copy — all part of our creative digital services in Dubai.',
   },
   {
     question: 'Do You Work With Startups Or Only Established Companies In Dubai?',
     answer:
-      "We work with both! Whether you're a growing startup or a well-established brand in Dubai, our team tailors solutions to fit your needs.",
+      "We work with both! Whether you're a new business or an industry leader, we tailor strategies to your size, goals, and market.",
   },
   {
     question: 'Can You Help Rebrand My Business From Scratch?',
     answer:
-      'Yes! From logo design to full brand identity, we specialize in building standout brands for businesses in Dubai and beyond.',
+      'Absolutely. We handle everything from brand identity design and messaging to digital launch strategies and ongoing marketing support.',
   },
-{
-   question: 'Can you Help Rebranch My Buisiness From Scratch',
-   answer :
-   'Yes! From logo design to full brand identity, we specialize in building standout brands for businesses in Dubai and beyond.'
-},
+
   {
     question: "What Is ADM's Outsourcing Model In Dubai?",
     answer:
       'We provide trained digital marketing experts to work as in-house staff at your office in Dubai — with full ADM agency support and no visa or HR headaches.',
+  },
+  {
+    question: " How do ADM’s creative digital services drive real business growth?",
+    answer:
+      ' Our strategies are tailored to your business goals. By combining SEO, social media, web development, and branding, we help you attract, engage, and convert the right audience — ensuring your business grows with measurable, long-term impact',
   },
 ];
 
