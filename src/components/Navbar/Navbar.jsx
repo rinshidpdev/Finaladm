@@ -93,7 +93,7 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="mobile-menu">
           <Link to="/" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
-          <Link to="/about" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
+          <Link to="/about" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Who We Are</Link>
 
           <div className="mobile-dropdown">
             <button className="mobile-dropdown-toggle" onClick={() => setIsServicesOpen(!isServicesOpen)}>
@@ -120,7 +120,7 @@ const Navbar = () => {
             )}
           </div>
 
-          <Link to="/team" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>our Team</Link>
+          <Link to="/team" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Our Team</Link>
           <Link to="/contact" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
         </div>
       )}
