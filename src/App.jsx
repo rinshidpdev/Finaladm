@@ -24,6 +24,8 @@ import VideoGraphy from './components/WhyChooseBranding/VideoGraphy'
 import ScrollToTop from './components/ScrollToTop'
 import TeamMemberDetail from './components/TeamSec/TeamMemberDetail';
 import Team from './pages/Team';
+import Work from './pages/Work';
+
 
 
 
@@ -43,6 +45,7 @@ const App = () => {
    <Route path='/' element={<Home/>}/>
    <Route path='/about' element={<AboutUs/>}/>
    <Route path='/contact' element={<ContactUs/>}/>
+   <Route path='/works' element={<Work/>}/>
    <Route path='/services/branding' element={<Branding/>}/>
    <Route path='/services/socialmedia-marketing' element={<SocialMedia/>}/>
    <Route path='/services/web-development' element={<Web/>}/>

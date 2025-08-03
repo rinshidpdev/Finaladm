@@ -80,6 +80,7 @@ const Navbar = () => {
           </div>
 
           <Link to="/team" className="nav-link" onClick={() => setIsServicesOpen(false)}>Our Team</Link>
+          <Link to="/works" className="nav-link" onClick={() => setIsServicesOpen(false)}>Works</Link>
           <Link to="/contact" className="nav-link" onClick={() => setIsServicesOpen(false)}>Contact</Link>
         </div>
 
@@ -121,6 +122,7 @@ const Navbar = () => {
           </div>
 
           <Link to="/team" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Our Team</Link>
+          <Link to="/works" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Works</Link>
           <Link to="/contact" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
         </div>
       )}
