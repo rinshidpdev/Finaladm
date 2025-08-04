@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="footer-cta">
             <h2 className="footer-title">
               Let's Work With<br />
-              ADM Agency
+              Together
             </h2>
           </div>
           <div className="footer-arrow" onClick={handleArrowClick}>

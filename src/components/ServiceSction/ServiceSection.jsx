@@ -58,7 +58,7 @@ const ServiceSection = () => {
       <div className="cont" data-aos="zoom-in-right">
           <h1>Fuel Business Growth with ADM Agency</h1>
            <h2> <span>from</span>  ADM Agency</h2>
-           <p>ADM Agency is more than a marketing service — we’re your creative growth partner. As a full-service creative digital marketing agency in Dubai, we deliver digital solutions that increase visibility, enhance brand presence, and boost performance across every platform</p>
+           <p>ADM Agency is more than a marketing service provider — we’re your creative growth partner. As a full-service creative digital marketing agency in Dubai, we deliver digital solutions that increase visibility, enhance brand presence, and boost performance across every platform</p>
         </div>
     </div>
     
