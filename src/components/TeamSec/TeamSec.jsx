@@ -194,11 +194,11 @@ const TeamSec = () => {
     {
       id: 5,
       name: "VYSHNAV K PRAKASH",
-      role: "Business Development Officer",
+      role: "Digital Marketing Consultant",
       image: vishnav,
       detailImage: vishnav,
-      experience: "3+ Years",
-      about: "Dynamic business development professional focused on identifying growth opportunities and building strategic partnerships. Vyshnav excels at nurturing client relationships and driving revenue growth.",
+      experience: "7+ Years",
+      about: "With over 7 years of experience in the digital marketing industry, Vyshnav K Prakash is a results-driven Digital Marketing Consultant specializing in business development, client relations, and strategic partnerships. Known for his dynamic approach, Vyshnav focuses on identifying growth opportunities, building long-term relationships, and crafting high-impact sales strategies that drive measurable revenue growth.",
       skills: ["Business Development", "Client Relations", "Strategic Partnerships", "Sales Strategy"],
       // email: "vyshnav@anishagroup.com",
       // linkedin: "#"
