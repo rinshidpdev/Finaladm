@@ -6,11 +6,14 @@ import Faq from '../components/FAQ/Faq'
 import NewAbout from '../components/NewAb/NewAbout'
 import SplashCursor from '../components/SplashCursor/SplashCursor'
 import HowItWorks from '../components/HowItWorks/HowItWorks'
+import BlogBanner from '../components/BlogBanner/BlogBanner'
+import WorkBanner from '../components/WorkBanner/WorkBanner'
 const AboutUs = () => {
   return (
     <>
     <SplashCursor />
     <AboutSec/>
+    
    <NewAbout/>
     <AboutCeo/>
     <HowItWorks/>
