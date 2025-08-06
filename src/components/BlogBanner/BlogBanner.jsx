@@ -336,6 +336,8 @@ const BlogBanner = () => {
 
           .blue-circle {
             width: 9vw !important;
+            top:40vw !important;
+            right:15vw !important;
           }
         }
 
@@ -346,20 +348,26 @@ const BlogBanner = () => {
           }
 
           .platform {
-            width: 80vw !important;
+            width: 90vw !important;
           }
 
           .girl {
             width: 40vw !important;
-            top: 24% !important;
+            top: 34% !important;
           }
 
           .rocket, .drone {
             width: 18vw !important;
+           
           }
+            .rocket{
+            right:20vw !important;
+            
+            }
 
           .blue-circle {
             width: 10vw !important;
+            top:40%
           }
         }
       `}</style>
@@ -444,7 +452,7 @@ const styles = {
   blueCircle: {
     position: 'absolute',
     top: '11%',
-    left: '50%',
+    left: '54%',
     transform: 'translateX(-50%)',
     width: '4.2vw',
     zIndex: 20,
