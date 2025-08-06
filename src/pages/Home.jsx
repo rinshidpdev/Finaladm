@@ -23,7 +23,7 @@ const Home = () => {
 </section>
 
     <Clients/>
-    <Testimonial/>
+    {/* <Testimonial/> */}
     
 
     </>
