@@ -27,6 +27,7 @@ import Team from './pages/Team';
 import Work from './pages/Work';
 import BlogPostsWithLoadMore from './pages/Blog';
 import Blog from './pages/Blog';
+import BlogM from './components/BlogBanner/BlogM';
 
 
 
@@ -49,6 +50,7 @@ const App = () => {
    <Route path='/contact' element={<ContactUs/>}/>
    <Route path='/works' element={<Work/>}/>
    <Route path='/blog' element={<Blog/>}/>
+   <Route path='/blog/:id' element={<BlogM/>}/>
    <Route path='/services/branding' element={<Branding/>}/>
    <Route path='/services/socialmedia-marketing' element={<SocialMedia/>}/>
    <Route path='/services/web-development' element={<Web/>}/>

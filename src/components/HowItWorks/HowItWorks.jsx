@@ -6,7 +6,7 @@ const HowItWorks = () => {
       backgroundColor: 'black',
       color: '#ffffff',
       padding: '60px 0',
-      fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+      // fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
       width: '100%',
       minHeight: 'auto',
       '@media (min-width: 768px)': {
@@ -258,7 +258,7 @@ const HowItWorks = () => {
       backgroundColor: 'black',
       color: '#ffffff',
       padding: window?.innerWidth >= 1024 ? '120px 0' : window?.innerWidth >= 768 ? '80px 0' : '60px 0',
-      fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+      // fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
       width: '100%',
       minHeight: 'auto'
     },

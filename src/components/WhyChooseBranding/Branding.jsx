@@ -80,7 +80,7 @@
 // BrandingPage.jsx
 import React, { useEffect } from 'react';
 import './WhyChooseBranding.css';
-import pumb from '../../assets/pumb.png';
+import pumb from '../../assets/dees.jpg';
 import b5 from '../../assets/brand5.webp'
 import b4 from '../../assets/brand4.webp'
 import b3 from '../../assets/brand3.webp'

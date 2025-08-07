@@ -126,6 +126,9 @@ import ashwin from '../../assets/4-1.jpg'
 import sufana from '../../assets/Sufana.jpg'
 import shamna from '../../assets/Shamna.jpg'
 import rinu from '../../assets/Rinu.png'
+import sneha from '../../assets/sneha.png'
+import jathin from '../../assets/jathin.png'
+import hamda from '../../assets/Hamda.png'
 
 // Detail page images (new ones for detail page)
 // import aniDetail from '../../assets/1-detail.jpg'
@@ -256,8 +259,8 @@ const TeamSec = () => {
       id: 11,
       name: "Sneha Abin ",
       role: "Graphic Designer",
-      image: '',
-      detailImage: '',
+      image: sneha,
+      detailImage: sneha,
       experience: "1+ Years",
       about: "Creative graphic designer with 1 year of hands-on experience crafting visually impactful designs. Skilled in Adobe Photoshop and Illustrator, I bring ideas to life through thoughtful layouts, eye-catching visuals, and a deep understanding of design principles. From branding to digital content, I create work that communicates clearly and leaves a lasting impression.",
       skills: ["Adobe Photoshop",'Illustrator',],
@@ -265,6 +268,18 @@ const TeamSec = () => {
     },
        {
       id: 12,
+      name: " Hamda Ali",
+      role: "Content creator",
+      image: hamda,
+      detailImage: hamda,
+      experience: "1+ Years",
+      about: "Versatile Content Creator with a passion for crafting engaging and value-driven content across social media, blogs, and video platforms. Experienced in storytelling, trend analysis, and audience engagement strategies to boost brand visibility and drive growth. Adept at turning ideas into impactful visuals and compelling narratives.",
+      skills: [""],
+      // email: "sufana@anishagroup.com",
+      // linkedin: "#"
+    },
+       {
+      id: 13,
       name: "SUFANA SALIM",
       role: "Web & SEO Specialist",
       image: sufana,
@@ -272,6 +287,18 @@ const TeamSec = () => {
       experience: "1+ Years",
       about: "Full-stack digital specialist combining web development with SEO expertise. Sufana creates optimized websites that not only look great but also perform exceptionally in search rankings.",
       skills: ["Web Development", "SEO", "Frontend Development", "Performance Optimization"],
+      // email: "sufana@anishagroup.com",
+      // linkedin: "#"
+    },
+       {
+      id: 14,
+      name: "Jithin ",
+      role: "Video Editor Cum Graphic Designer",
+      image: jathin,
+      detailImage: jathin,
+      experience: "3+ Years",
+      about: "Creative Video Editor cum Graphic Designer with 3 years of experience crafting engaging visuals and dynamic content. Skilled in editing promotional videos, designing marketing assets, and creating compelling brand visuals across digital platforms. Brings a strong eye for detail and a passion for storytelling through design and motion.",
+      skills: ["Premier Pro", "Photoshop", "Illustrator",],
       // email: "sufana@anishagroup.com",
       // linkedin: "#"
     },
