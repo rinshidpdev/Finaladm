@@ -400,7 +400,7 @@ const BlogPosts = () => {
       {!showMore && (
         <div className="load-more-container">
           <button className="load-more-button" onClick={handleLoadMore}>
-            ...
+            LoadMore
           </button>
         </div>
       )}
