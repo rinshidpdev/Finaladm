@@ -124,7 +124,7 @@ const Navbar = () => {
 
           <Link to="/team" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Our Team</Link>
           <Link to="/works" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Works</Link>
-          <Link to="/works" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Blog</Link>
+          <Link to="/blog" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Blog</Link>
           <Link to="/contact" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
         </div>
       )}
