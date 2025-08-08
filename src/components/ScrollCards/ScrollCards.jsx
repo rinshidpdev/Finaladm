@@ -219,7 +219,7 @@ import img2 from '../../assets/p2.png';
 import img3 from '../../assets/brand.png';
 import img4 from '../../assets/w3.png';
 import img5 from '../../assets/w1.png';
-import img6 from '../../assets/m4.png';
+import img6 from '../../assets/m42.jpeg';
 import img7 from '../../assets/ph6.jpg';
 import img8 from '../../assets/v1.jpg';
 import './ScrollCards.css';

@@ -4,7 +4,7 @@ import Cube from '../components/Cube/Cube'
 import ServiceSection from '../components/ServiceSction/ServiceSection'
 import ScrollCards from '../components/ScrollCards/ScrollCards'
 import Clients from '../components/ClientsLogo/Clients'
-import './Home.css'
+
 import GlobalVideoBackground from '../components/GlobalVideoBackground/GlobalVideoBackground'
 import Testimonial from '../components/Testimonial/Testimonial'
 

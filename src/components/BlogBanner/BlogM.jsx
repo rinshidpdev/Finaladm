@@ -10,6 +10,7 @@ import blogc2 from '../../assets/content1.jpg';
 import brandbg from '../../assets/brandBG.jpg';
 import brandbg2 from '../../assets/brandbg2.jpg';
 import blogf from '../../assets/blogCreat.jpg';
+import blogf2 from '../../assets/blogadv.jpeg';
 
 
 const BlogM = () => {
@@ -41,7 +42,7 @@ const BlogM = () => {
         },
         {
           type: "image",
-          src: blog1,
+          src: blogf2,
           alt: "Digital advertising strategy visualization"
         },
         {

@@ -36,6 +36,23 @@ import opticals1 from '../../assets/opticals1.jpg'
 import opticals2 from '../../assets/opticals2.jpg'
 import opticals3 from '../../assets/opticals3.jpg'
 
+import education1 from '../../assets/education1.jpg'
+import education2 from '../../assets/education2.jpg'
+import education3 from '../../assets/education3.jpg'
+import education4 from '../../assets/education4.jpg'
+import education5 from '../../assets/education5.jpg'
+import education6 from '../../assets/education6.jpg'
+
+import cargo1 from '../../assets/cargo1.jpg'
+import cargo2 from '../../assets/cargo2.jpg'
+import cargo3 from '../../assets/cargo3.png'
+import cargo4 from '../../assets/cargo4.jpg'
+import cargo5 from '../../assets/cargo5.jpg'
+
+import estate1 from '../../assets/est1.jpeg'
+import estate2 from '../../assets/est2.jpeg'
+import estate3 from '../../assets/est3.jpeg'
+import estate4 from '../../assets/est4.jpeg'
 
 const WorkDetails = () => {
   const [activeCategory, setActiveCategory] = useState('Featured');
@@ -53,8 +70,8 @@ const WorkDetails = () => {
     { id: 9, name: 'Layerz', category: 'Food & Beverage', imageUrl: food5, link: '#' },
     { id: 10, name: 'Layerz', category: 'Food & Beverage', imageUrl: food6, link: '#' },
     { id: 11, name: 'Layerz', category: 'Food & Beverage', imageUrl: food7, link: '#' },
-    { id: 12, name: 'Flipz', category: 'Food & Beverage', imageUrl: 'https://www.moonbox.ae/wp-content/uploads/2023/11/Flipz_cover.jpg', link: '#' },
-    { id: 13, name: 'Chikkala', category: 'Packaging', imageUrl: 'https://www.moonbox.ae/wp-content/uploads/2023/09/Chickalala_cover.jpg', link: '#' },
+    { id: 12, name: 'Flipz', category: 'Food & Beverage', imageUrl: '', link: '#' },
+    { id: 13, name: 'Chikkala', category: 'Packaging', imageUrl: '', link: '#' },
     { id: 14, name: 'Strom', category: 'Featured', imageUrl: cl3, link: '#' },
     { id: 15, name: 'Travel Co', category: 'Travel & Leisure', imageUrl: '/api/placeholder/600/450', link: '#' },
     { id: 16, name: 'Corp Inc', category: 'Corporate', imageUrl: '/api/placeholder/600/450', link: '#' },
@@ -83,6 +100,24 @@ const WorkDetails = () => {
     { id: 37, name: '', category: 'Optical & Eyewear', imageUrl:opticals1 , link: '#' },
     { id: 38, name: '', category: 'Optical & Eyewear', imageUrl:opticals2 , link: '#' },
     { id: 39, name: '', category: 'Optical & Eyewear', imageUrl:opticals3 , link: '#' },
+
+    { id: 40, name: '', category: 'Education', imageUrl:education1 , link: '#' },
+    { id: 41, name: '', category: 'Education', imageUrl:education2 , link: '#' },
+    { id: 43, name: '', category: 'Education', imageUrl:education3 , link: '#' },
+    { id: 44, name: '', category: 'Education', imageUrl:education4 , link: '#' },
+    { id: 45, name: '', category: 'Education', imageUrl:education5 , link: '#' },
+    { id: 46, name: '', category: 'Education', imageUrl:education6 , link: '#' },
+
+    { id: 47, name: '', category: 'Corporate', imageUrl:cargo1 , link: '#' },
+    { id: 48, name: '', category: 'Corporate', imageUrl:cargo2 , link: '#' },
+    { id: 49, name: '', category: 'Corporate', imageUrl:cargo3 , link: '#' },
+    { id: 50, name: '', category: 'Corporate', imageUrl:cargo4 , link: '#' },
+    { id: 51, name: '', category: 'Corporate', imageUrl:cargo5 , link: '#' },
+
+    { id: 52, name: '', category: 'Property & Real Estate', imageUrl:estate1, link: '#' },
+    { id: 53, name: '', category: 'Property & Real Estate', imageUrl:estate2, link: '#' },
+    { id: 54, name: '', category: 'Property & Real Estate', imageUrl:estate3, link: '#' },
+    { id: 55, name: '', category: 'Property & Real Estate', imageUrl:estate4, link: '#' },
 
 
     

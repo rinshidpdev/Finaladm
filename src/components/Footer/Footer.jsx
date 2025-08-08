@@ -66,10 +66,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Quick Links</h3>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Our Services</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/services/branding">Our Services</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
 
@@ -77,10 +77,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Services</h3>
             <ul>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Term Of Service</a></li>
-              <li><a href="#">Disclaimer</a></li>
-              <li><a href="#">Credits</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Term Of Service</a></li>
+              <li><a href="">Disclaimer</a></li>
+              <li><a href="">Credits</a></li>
             </ul>
           </div>
 
