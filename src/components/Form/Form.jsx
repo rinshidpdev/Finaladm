@@ -373,7 +373,7 @@ const Form = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_pub812h',   // Replace with your EmailJS Service ID
+      'service_ztgymqj',   // Replace with your EmailJS Service ID
       'template_xn54of6',  // Replace with your EmailJS Template ID
       formData,
       'iMGHu5RwjLkaQmcUj'    // Replace with your EmailJS Public Key

@@ -17,7 +17,7 @@ const contactCards = [
   },
   {
     icon: <FaEnvelope />,
-    title: 'hello@admagency.ae',
+    title: 'info@admagency.ae',
     desc: 'Send us your queries or project details by email.',
     action: 'Send Email',
     link: 'mailto:hello@admagency.ae',
