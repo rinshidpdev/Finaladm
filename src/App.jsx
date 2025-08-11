@@ -28,7 +28,8 @@ import Work from './pages/Work';
 import BlogPostsWithLoadMore from './pages/Blog';
 import Blog from './pages/Blog';
 import BlogM from './components/BlogBanner/BlogM';
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 
@@ -43,6 +44,7 @@ const App = () => {
   return (
     <>
     <Navbar/>
+    <ToastContainer position="top-right" autoClose={3000} />
     <ScrollToTop/>
    <Routes>
    <Route path='/' element={<Home/>}/>
